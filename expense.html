@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>expense tracker</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Choose Express Amount: </label>
+      <input type="number" name="nums" id="numbers" />
+      <label for="desc">Description: </label>
+      <input type="text" id="text" />
+      <label for="catageories">Choose a Catagories: </label>
+      <select name="catageories" id="catageories">
+        <option value="fuel">fuel</option>
+        <option value="food">food</option>
+        <option value="electricity">electricity</option>
+        <option value="movies">movies</option>
+      </select>
+      <input class="btn" type="submit" value="Add Expense" id="btnsub" />
+    </form>
+    <ul id="exp"></ul>
+    <script src="exp.js"></script>
+  </body>
+</html>
